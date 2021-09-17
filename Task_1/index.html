@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Task 1</title>
+    <script src="scripts.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Work schedule</h1>
+      <div>
+        <div>Start date:</div>
+        <input type="date" id="startDate">
+      </div>
+      <div class="margingTop1x">
+        <div>End date:</div>
+        <input type="date" id="endDate">
+      </div>
+      <div>
+        <div class="margingTop1x">Schedule type</div>
+        <select id="scheduleType">
+          <option value="plan">Plan</option>
+          <option value="fact">Fact</option>
+        </select>
+      </div>
+      <button class="margingTop4x" onclick="getTable()">Get/Refresh table</button>
+      <div class="tableWrapper">
+        <table class="margingTop1x">
+          <tbody id="workSchedule">
+          </tbody>
+        </table>
+      </div>
+    </div>
+    </body>
+</html>

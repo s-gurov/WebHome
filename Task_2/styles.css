@@ -1,0 +1,30 @@
+.chartWrapper {
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1400px) {
+  .chartWrapper {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .chartWrapper {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .chartWrapper {
+    width: 100%;
+  }
+}

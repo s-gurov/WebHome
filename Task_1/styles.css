@@ -1,0 +1,67 @@
+.container {
+  width: 75%;
+  margin: auto;
+}
+
+.filledCell {
+  background-color: #d3f1b8;
+}
+
+.cellData {
+  font-size: 13px;
+  min-width: 200px;
+}
+
+.tableWrapper { overflow-x: auto; }
+.tableWrapper table { white-space: nowrap }
+
+.margingTop1x {
+  margin-top: 8px;
+}
+
+.margingTop2x {
+  margin-top: 16px;
+}
+
+.margingTop4x {
+  margin-top: 32px;
+}
+
+input {
+  background-color: #d3f1b8;
+}
+
+select {
+  padding: 8px 16px;
+  background-color: #d3f1b8;
+}
+
+button {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #d3f1b8;
+}
+
+button:hover, select:hover {
+  background-color: #9fc47e;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 8px;
+}
+
+td:first-child, tr:first-child {
+  background-color: #e2e0e0;
+}
